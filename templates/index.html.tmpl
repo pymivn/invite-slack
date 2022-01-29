@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+body {
+  background-color: #333;
+  color: white;
+}
+@media screen and (prefers-color-scheme: light) {
+  body {
+    background-color: white;
+    color: black;
+  }
+}
+</style>
+</head>
+<body>
+<h1>Nhập email để nhận lời mời tham gia forum PyMi.vn
+trên Slack!</h1>
+<form method="POST" action="/invite">
+    <input type="email" name="email"></input>
+    <input type="submit" value="Enter"></input>
+</form>
+</body>
