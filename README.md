@@ -1,16 +1,13 @@
 # invite-slack
-A simple app without dependency for inviting user to a Slack workspace - running on https://pymi-invite.fly.dev/
+A simple app without dependency for inviting user to a Slack workspace
 
 ## Required environments
 
 ```
-  SLACK_TOKEN = "xoxp-BLAHBLAH"
-  SLACK_ADDRESS = "pymi.slack.com"
+export SLACK_TOKEN="xoxp-BLAHBLAH"
+export SLACK_ADDRESS="pymi.slack.com"
+export PORT=8081
 ```
 
-## Deploy
-https://fly.io/docs/getting-started/golang/
-
-```
-flyctl launch
-```
+## Token
+Use slack legacy token <https://api.slack.com/legacy/custom-integrations/legacy-tokens>
